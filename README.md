@@ -47,4 +47,4 @@ Finally, you need to run the server.
 ```java
 $ python -m uvicorn main:app --reload
 ```
-### Base URL : 
+### Base URL : https://dee-server.onrender.com
