@@ -31,7 +31,17 @@ $ git clone https://github.com/raphdoo/dee-server.git
 Then, you need to install the dependencies.
 ```javascript
 $ python -m pip install -r .\setup.txt
-``` 
+```
+
+Then, you need to create a virtual environment.
+```javascript
+$ touch .env
+```
+
+Then, you need to write your "OPEN_AI" key to .env file
+```javascript
+"OPEN_AI" = "YOURSECRETKEY"
+```
 
 Finally, you need to run the server.
 ```java
